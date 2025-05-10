@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        cmd 'echo Hello World'
+        command 'echo Hello World'
       }
       post {
         success {
